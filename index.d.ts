@@ -142,6 +142,7 @@ declare namespace XlsxPopulate {
     value(): string | boolean | number | Date | undefined
     value(value: string | boolean | number | null | undefined): Cell
     value(): Range
+    _value: string | undefined
     workbook(): Workbook
     addHorizontalPageBreak(): Cell
   }
