@@ -107,6 +107,7 @@ declare namespace XlsxPopulate {
     style(style: Style): Cell
     workbook(): Workbook
     addPageBreak(): Row
+    _cells: Cell[]
   }
 
   class Cell {
